@@ -1,8 +1,10 @@
-# Google App _Using_React_JS
+# Facebook App _Using_React_JS
 
 ## Building Blocks
   
-    Google's Api
+    Firebase 
+    FireStore
+    Google Authentication
     React Hooks
     Material Ui
     Responsive Plain Css tactics
