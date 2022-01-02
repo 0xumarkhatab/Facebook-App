@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+.app__body {
+  display: flex;
+  flex: 1;
+  background-color: rgb(255, 253, 253);
+}
+@media only screen and (max-width: 1050px) {
+  .sidebar > .sidebarRow {
+    transform: scale(0.57);
+  }
+  .widgets > .contacts {
+    transform: scale(0.6);
+  }
+
+  .widgets > .contacts > .contact {
+    transform: scale(0.57);
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .sidebar > .sidebarRow {
+    transform: scale(0.1);
+  }
+  .widgets > .contacts {
+    transform: scale(0.2);
+  }
+
+  .widgets > .contacts > .contact {
+    transform: scale(0.1);
+  }
+}
+
+@media only screen and (max-width: 1009px) {
+  .sidebar {
+    flex: 0;
+    display: none;
+  }
+  .widgets {
+    display: none;
+    flex: 0;
+  }
+}

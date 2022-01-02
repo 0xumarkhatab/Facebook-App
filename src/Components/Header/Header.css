@@ -1,0 +1,138 @@
+.header {
+  display: flex;
+  padding: 15px 20px;
+  justify-content: space-between;
+  position: sticky;
+  background-color: white;
+  z-index: 100;
+  top: 0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header__left {
+  display: flex;
+}
+.header__left > img {
+  height: 40px;
+  object-fit: contain;
+}
+.header__left > img:hover {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.07);
+}
+
+.header__input {
+  background-color: #eff2f5;
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+  flex: 1;
+  width: 100%;
+}
+.header__input > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.header__input:hover {
+  background-color: rgb(228, 228, 228);
+}
+.header__middle {
+  display: flex;
+  justify-content: space-between;
+  transition: transform 600ms ease-in-out;
+}
+.dropdown__middle__menu {
+  align-items: center;
+  cursor: pointer;
+  display: none;
+  transition: transform 100ms ease-in;
+}
+.dropdown__middle__menu:hover {
+  transform: scale(1.05) !important;
+}
+.dropdown__middle__menu:active {
+  background-color: rgb(224, 224, 224);
+  color: white;
+  border-radius: 40px;
+}
+
+.header__info {
+  display: flex;
+  align-items: center;
+  padding: 1px 2px;
+}
+.header__info:hover {
+  background-color: rgb(235, 235, 235);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header__info:active {
+  background-color: transparent;
+  cursor: default;
+}
+.header__right {
+  display: flex;
+}
+.right__menu {
+  display: flex;
+  transition: transform 600ms ease-in-out;
+}
+
+.right__menu__icon,
+.header__option > .MuiSvgIcon-root {
+  background-color: rgb(240, 240, 240);
+  border: 1px solid rgb(209, 205, 205);
+  border-radius: 50%;
+}
+
+.header__option > .MuiSvgIcon-root {
+  color: grey !important;
+  padding: 2px 2px;
+}
+.header__option > .MuiSvgIcon-root:hover {
+  color: #2e81f4 !important;
+}
+.header__option {
+  display: flex;
+  align-items: center;
+  padding: 0 2vw;
+  cursor: pointer;
+  transition: transform 600ms ease-in-out;
+}
+@media only screen and (max-width: 800px) {
+  .header__middle {
+    transform: scale(0);
+  }
+  .dropdown__middle__menu {
+    display: flex;
+  }
+
+  .right__menu {
+    transform: scale(0);
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .header__middle {
+    display: none;
+  }
+  .dropdown__middle__menu {
+    display: flex;
+  }
+
+  .right__menu {
+    display: none;
+  }
+}
+
+.header__option--active > .MuiSvgIcon-root {
+  color: #2e81f4 !important;
+}
+.header__option--active {
+  border-bottom: 3px solid #2e81f4 !important;
+}
