@@ -20,8 +20,12 @@ The Project Looks as Follows
 ![Third Image](./demonstration/three.JPG) 
 
 ### Project illustration Videos
-![Part One](./demonstration/facebook_illustration_pt1.MP4) 
-![Part Two](./demonstration/facebook_illustration_pt2.MP4) 
+
+https://user-images.githubusercontent.com/71306738/152096283-b9fb7141-edd9-45aa-b168-b77fa2b197db.mp4
+
+
+https://user-images.githubusercontent.com/71306738/152096293-4b62f6a7-843d-41ed-9f25-616edd86386d.mp4
+
 
 
 
