@@ -19,8 +19,9 @@ The Project Looks as Follows
 
 ![Third Image](./demonstration/three.JPG) 
 
-For illustration video. head over to issues tab and view the 
-### Project illustration Video in Issues Tab
+### Project illustration Videos
+![Part One](./demonstration/facebook_illustration_pt1.MP4) 
+![Part Two](./demonstration/facebook_illustration_pt2.MP4) 
 
 
 
